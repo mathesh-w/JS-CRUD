@@ -1,0 +1,76 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 500px;
+    border: 4px dotted #3E5879;
+    border-radius: 8px;
+    padding: 15px;
+    overflow-y: scroll;
+    margin-top: 50px;
+}
+
+.app::-webkit-scrollbar {
+    display: none;
+}
+
+#addNew {
+    background-color: #F5F0CD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow-y: scroll;
+}
+
+.fa-plus {
+    background-color: #D8D2C2;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#tasks {
+    display: grid;
+    gap: 6px;
+}
+
+#tasks div {
+    background-color: #F8FAFC;
+    border: 2px solid #9AA6B2;
+    padding: 5px;
+    border-radius: 6px;
+    display: grid;
+    gap: 5px;
+}
+
+.options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+.options i {
+    cursor: pointer;
+}
+
+#msg {
+    color: tomato;
+}
+
+#delete {
+    color: #FF2929;
+}
+
+#edit {
+    color: #00FF9C;
+}
